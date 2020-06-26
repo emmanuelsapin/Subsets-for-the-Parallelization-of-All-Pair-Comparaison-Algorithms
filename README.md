@@ -1,0 +1,6 @@
+# pairwise-parallelization
+This repository is dedicated to help using the parallelization procedure exposed in the following paper:
+....
+To compile the code just run make in the folder after changing the pathes in the file .....
+The program can be run directly on a command line:
+subsets
