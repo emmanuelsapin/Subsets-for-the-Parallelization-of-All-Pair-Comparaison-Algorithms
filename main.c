@@ -84,7 +84,7 @@ int main(int argc, char *argv[])
 	{	n = atoi (argv[1]);
 	};
 	printf("Number of observations is %d.\n",n);
-	char pathtresult[200];
+	char pathtresult[200]; 
 	if (argc<3)
     {   printf("Argument 2 is file to store the result and is missing. Default is \"chunks.txt\"\n");
 		strcpy(pathtresult,"chunks.txt");
@@ -116,7 +116,7 @@ int main(int argc, char *argv[])
 	int sqrtntop=i;
 	int nbgroupperperson=sqrtntop+1;
 	int nbgroup=ntop+sqrtntop;
-	printf("Number of elements in the matrix = %d\nNumber of person per group = %d\nNumber of group per person = %d\nNumber of groups = %d\n", ntop, i, sqrtntop, nbgroupperperson,nbgroup);
+	printf("Number of elements in the matrix = %d\nNumber of person per group = %d\nNumber of group per person = %d\nNumber of groups = %d\n", ntop, sqrtntop, nbgroupperperson,nbgroup);
 	printf("Creation of the chunks:\n");
 	fillgroups(pathtresult,n,ntop,sqrtntop);
 	clock_t end = clock();
