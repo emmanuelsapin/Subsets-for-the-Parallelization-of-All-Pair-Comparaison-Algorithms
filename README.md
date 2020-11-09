@@ -275,4 +275,5 @@ As a toy example, we give here the composition of the 132 subsets for 100 indivi
 All the subset do not have the same size as 100<121 (first quare of prime > 100)
 Here there is 131 sunset as one of the subset is empty.
 In order to run Germline on these 131 subsets, two main solutions exist:
-  - Create ped files per chromosome per subset. So 22*131 per file need to be created    
+  - Create ped files per chromosome per subset. So 22*131 per file need to be created this way, then run GERMLINE on each ped file
+  - Modify GERMLINE to only compare a sample of individuals in a ped file
