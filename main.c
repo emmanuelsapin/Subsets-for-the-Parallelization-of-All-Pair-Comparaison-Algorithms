@@ -115,7 +115,8 @@ int main(int argc, char *argv[])
 	};
 	int sqrtntop=i;
 	int nbgroupperperson=sqrtntop+1;
-	printf("Number of elements in the matrix = %d\nNumber of person per group = %d\nNumbber of group per person = %d\nNumber of groups = %d\n", ntop, i, sqrtntop, nbgroupperperson,ntop+sqrtntop);
+	int nbgroup=ntop+sqrtntop;
+	printf("Number of elements in the matrix = %d\nNumber of person per group = %d\nNumber of group per person = %d\nNumber of groups = %d\n", ntop, i, sqrtntop, nbgroupperperson,nbgroup);
 	printf("Creation of the chunks:\n");
 	fillgroups(pathtresult,n,ntop,sqrtntop);
 	clock_t end = clock();
