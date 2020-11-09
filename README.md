@@ -271,3 +271,8 @@ As a toy example, we give here the composition of the 132 subsets for 100 indivi
 9 19 29 39 49 59 69 79 89 99 
 
 10 20 30 40 50 60 70 80 90 100 
+
+All the subset do not have the same size as 100<121 (first quare of prime > 100)
+Here there is 131 sunset as one of the subset is empty.
+In order to run Germline on these 131 subsets, two main solutions exist:
+  - Create ped files per chromosome per subset. So 22*131 per file need to be created    
